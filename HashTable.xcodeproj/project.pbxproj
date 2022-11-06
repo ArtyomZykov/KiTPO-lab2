@@ -10,6 +10,7 @@
 		8BB2937A2917B97700AB274D /* Smartphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB293792917B97700AB274D /* Smartphone.swift */; };
 		8BB2937C2917B99300AB274D /* MyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2937B2917B99300AB274D /* MyInteger.swift */; };
 		8BB2937E2917B9A700AB274D /* MyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2937D2917B9A700AB274D /* MyString.swift */; };
+		8BB293802917DC8200AB274D /* HashTableFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2937F2917DC8200AB274D /* HashTableFactory.swift */; };
 		8BC80CD329055AF200A6C158 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80CD229055AF200A6C158 /* HashTable.swift */; };
 		8BC80CD529055B6500A6C158 /* IUserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80CD429055B6500A6C158 /* IUserType.swift */; };
 		8BEBA13027B63650007285CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBA12F27B63650007285CA /* AppDelegate.swift */; };
@@ -24,6 +25,7 @@
 		8BB293792917B97700AB274D /* Smartphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smartphone.swift; sourceTree = "<group>"; };
 		8BB2937B2917B99300AB274D /* MyInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInteger.swift; sourceTree = "<group>"; };
 		8BB2937D2917B9A700AB274D /* MyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyString.swift; sourceTree = "<group>"; };
+		8BB2937F2917DC8200AB274D /* HashTableFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTableFactory.swift; sourceTree = "<group>"; };
 		8BC80CD229055AF200A6C158 /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		8BC80CD429055B6500A6C158 /* IUserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUserType.swift; sourceTree = "<group>"; };
 		8BEBA12C27B63650007285CA /* HashTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,7 @@
 			children = (
 				8BC80CD229055AF200A6C158 /* HashTable.swift */,
 				8BC80CD429055B6500A6C158 /* IUserType.swift */,
+				8BB2937F2917DC8200AB274D /* HashTableFactory.swift */,
 			);
 			path = hashTable;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				8BB2937A2917B97700AB274D /* Smartphone.swift in Sources */,
 				8BB2937C2917B99300AB274D /* MyInteger.swift in Sources */,
 				8BB2937E2917B9A700AB274D /* MyString.swift in Sources */,
+				8BB293802917DC8200AB274D /* HashTableFactory.swift in Sources */,
 				8BEBA13227B63650007285CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
