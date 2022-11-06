@@ -1,38 +1,6 @@
 import UIKit
 import Foundation
 
-/*
- Hash Table: A symbol table of generic key-value pairs.
- 
- The key must be `Hashable`, which means it can be transformed into a fairly
- unique integer value. The more unique the hash value, the better.
- 
- Hash tables use an internal array of buckets to store key-value pairs. The
- hash table's capacity is determined by the number of buckets. This
- implementation has a fixed capacity--it does not resize the array as more
- key-value pairs are inserted.
- 
- To insert or locate a particular key-value pair, a hash function transforms the
- key into an array index. An ideal hash function would guarantee that different
- keys map to different indices. In practice, however, this is difficult to
- achieve.
- 
- Since different keys can map to the same array index, all hash tables implement
- a collision resolution strategy. This implementation uses a strategy called
- separate chaining, where key-value pairs that hash to the same index are
- "chained together" in a list. For good performance, the capacity of the hash
- table should be sufficiently large so that the lists are small.
- 
- A well-sized hash table provides very good average performance. In the
- worst-case, however, all keys map to the same bucket, resulting in a list that
- that requires O(n) time to traverse.
- 
-        Average Worst-Case
- Space:   O(n)     O(n)
- Search:  O(1)     O(n)
- Insert:  O(1)     O(n)
- Delete:  O(1)     O(n)
- */
 public struct HashTable<Value: IUserType> {
     private typealias Element = (key: String, value: Value)
     private typealias Bucket = [Element]
