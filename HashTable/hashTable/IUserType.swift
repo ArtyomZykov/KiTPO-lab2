@@ -8,4 +8,5 @@ public protocol IUserType {
     func getKey() -> String
     func parseValue(_ json: AnyObject) -> IUserType
     func packValue() -> String
+    func toString() -> String
 }

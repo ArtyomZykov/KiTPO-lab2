@@ -9,35 +9,19 @@ import UIKit
 
 class ViewController: UIViewController, UIScrollViewDelegate {
     
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
-        print("viewDidLoad")
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        scrollView.delegate = self
-    }
-    
-    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        return imageView
-    }
-    
-    func updateZoomFor(size: CGSize) {
-        let widthScale = size.width / imageView.bounds.width
-        let heightScale = size.height / imageView.bounds.height
         
-        print(widthScale)
-        
-        let scale = min(widthScale, heightScale)
-        scrollView.minimumZoomScale = scale
-        scrollView.zoomScale = scale
+        var hashTable = HashTable<MyInteger>()
+        hashTable.add(MyInteger(data_: 17))
+        hashTable.add(MyInteger(data_: 3))
+        hashTable.add(MyInteger(data_: 32))
+        hashTable.add(MyInteger(data_: 329))
+        hashTable.add(MyInteger(data_: 87))
+        label.text = hashTable.debugDescription
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        updateZoomFor(size: view.bounds.size)
-    }
-    
     
 }
 

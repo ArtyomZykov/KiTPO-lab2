@@ -133,8 +133,8 @@ extension HashTable: CustomStringConvertible {
     public var debugDescription: String {
         var str = ""
         for (i, bucket) in buckets.enumerated() {
-            let pairs = bucket.map { e in "\(e.key) = \(e.value)" }
-            str += "bucket \(i): " + pairs.joined(separator: ", ") + "\n"
+            let pairs = bucket.map { e in "{\(e.value.toString())}" }
+            str += "{\(i)}    " + pairs.joined(separator: " -> ") + "\n"
         }
         return str
     }
