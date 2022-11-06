@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BB2937A2917B97700AB274D /* Smartphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB293792917B97700AB274D /* Smartphone.swift */; };
+		8BB2937C2917B99300AB274D /* MyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2937B2917B99300AB274D /* MyInteger.swift */; };
+		8BB2937E2917B9A700AB274D /* MyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2937D2917B9A700AB274D /* MyString.swift */; };
+		8BC80CD329055AF200A6C158 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80CD229055AF200A6C158 /* HashTable.swift */; };
+		8BC80CD529055B6500A6C158 /* IUserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80CD429055B6500A6C158 /* IUserType.swift */; };
 		8BEBA13027B63650007285CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBA12F27B63650007285CA /* AppDelegate.swift */; };
 		8BEBA13227B63650007285CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBA13127B63650007285CA /* SceneDelegate.swift */; };
 		8BEBA13427B63650007285CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBA13327B63650007285CA /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BB293792917B97700AB274D /* Smartphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smartphone.swift; sourceTree = "<group>"; };
+		8BB2937B2917B99300AB274D /* MyInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInteger.swift; sourceTree = "<group>"; };
+		8BB2937D2917B9A700AB274D /* MyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyString.swift; sourceTree = "<group>"; };
+		8BC80CD229055AF200A6C158 /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
+		8BC80CD429055B6500A6C158 /* IUserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUserType.swift; sourceTree = "<group>"; };
 		8BEBA12C27B63650007285CA /* HashTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEBA12F27B63650007285CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BEBA13127B63650007285CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BB293782917B93D00AB274D /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				8BB293792917B97700AB274D /* Smartphone.swift */,
+				8BB2937B2917B99300AB274D /* MyInteger.swift */,
+				8BB2937D2917B9A700AB274D /* MyString.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		8BC80CD129055AD100A6C158 /* hashTable */ = {
+			isa = PBXGroup;
+			children = (
+				8BC80CD229055AF200A6C158 /* HashTable.swift */,
+				8BC80CD429055B6500A6C158 /* IUserType.swift */,
+			);
+			path = hashTable;
+			sourceTree = "<group>";
+		};
 		8BEBA12327B63650007285CA = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +85,8 @@
 		8BEBA12E27B63650007285CA /* HashTable */ = {
 			isa = PBXGroup;
 			children = (
+				8BB293782917B93D00AB274D /* entities */,
+				8BC80CD129055AD100A6C158 /* hashTable */,
 				8BEBA12F27B63650007285CA /* AppDelegate.swift */,
 				8BEBA13127B63650007285CA /* SceneDelegate.swift */,
 				8BEBA13327B63650007285CA /* ViewController.swift */,
@@ -140,6 +171,11 @@
 			files = (
 				8BEBA13427B63650007285CA /* ViewController.swift in Sources */,
 				8BEBA13027B63650007285CA /* AppDelegate.swift in Sources */,
+				8BC80CD529055B6500A6C158 /* IUserType.swift in Sources */,
+				8BC80CD329055AF200A6C158 /* HashTable.swift in Sources */,
+				8BB2937A2917B97700AB274D /* Smartphone.swift in Sources */,
+				8BB2937C2917B99300AB274D /* MyInteger.swift in Sources */,
+				8BB2937E2917B9A700AB274D /* MyString.swift in Sources */,
 				8BEBA13227B63650007285CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,6 +14,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var hashTable = HashTable<String, String>()
+
+        hashTable["firstName"] = "Steve"
+        hashTable["lastName"] = "Jobs"
+        hashTable.add(MyInteger())
+        hashTable["hobbies"] = "Programming Swift"
+
+        print(hashTable)
+        print(hashTable.debugDescription)
+
+        let x = hashTable["firstName"]
+        hashTable["firstName"] = "Tim"
+
+        let y = hashTable["firstName"]
+        hashTable["firstName"] = nil
+
+        let z = hashTable["firstName"]
+
+        print(hashTable)
+        print(hashTable.debugDescription)
+        
+        
+        
+        
+        
+        
+        
         return true
     }
 
